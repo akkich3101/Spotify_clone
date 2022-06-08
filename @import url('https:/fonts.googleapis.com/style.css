@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: grey;
+    height: 65px;
+    
+}
+.topnav a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    align-items: center;
+    float: left;
+    text-align: center;
+    padding: 15px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 25px; 
+    background-color: white;
+    margin: 12px 0px 0px 80px  
+}
+.topnav input{
+    border-radius: 25px;
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+.active{
+    text-decoration: none;
+    color: rgb(71, 70, 70);
+}
+.middle H1{
+    margin: 40px;
+}
+.again h1{
+    margin: 40px;
+}
+table { border-collapse: collapse; }
+tr { border: none; }
+td {
+  border-right: solid 1px rgb(71, 70, 70); 
+  border-left: solid 1px rgb(71, 70, 70);
+}
+table.first{
+    margin-left: auto;
+    margin-right: auto;
+}
+.first{
+    background-color: black;
+    width: 95%;
+    height: 100%;
+}
+.first th{
+    color: white;
+    background-color: rgb(71, 70, 70);
+}
+.first tr{
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+}
+.first td{
+    text-align: center;
+}
+.star_rating{
+    user-select: none;
+}
+.star{
+    font-size: 3rem;
+    color: coral;
+    background-color: unset;
+    border: none;
+}
+.star:hover {
+    cursor: pointer;
+}
+.Song{
+    float: right;
+}
+.song{
+    display: block;
+    text-align: center;
+    padding: 15px 10px 10px 10px;
+    text-decoration: none;
+}
+.align{
+    font-size: larger;
+}
+.artist{
+    
+    text-decoration: none;
+}
+.one{
+    text-align: center;
+}
